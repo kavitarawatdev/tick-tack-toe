@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tick Tack Toe Game</title>
+    <!-- adding css link -->
+     <link rel="shortcut icon" href="/tick-tack-toe/images/favicon.png" type="image/x-icon/png">
+    <link rel="stylesheet" href="style.css">
+    <!-- adding JS file -->
+    <script defer src="index.js"></script>
+
+</head>
+<body>
+    <!--===============================================
+     message section
+     --------------------------------------------------->
+     <section class="message-section section hidden  ">
+        <div class="container message-container flex flex-centered flex-col">
+            <p class="message"></p>
+            <button class="newGame-btn btn">New Game</button> 
+        </div>
+     </section>
+
+     <!-- =====================================================
+      game-section
+      ------------------------------------------------------- -->
+    <section class="section game-section flex  flex-centered">
+        <div class="container game-container flex flex-col flex-centered">
+            <h1 class="main-heading">Tick-Tack-Toe</h1>
+
+            <div class="game grid grid-col-three">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+
+            <button class="newGame-btn btn">Restart Game</button>
+        </div>
+    </section>
+
+</body>
+</html>
